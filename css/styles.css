@@ -1,9 +1,20 @@
+* { box-sizing: border-box; }
 
-body {
-    margin: 0 px;
-    background-color: aquamarine;
+@media screen and (min-width: 600px) {
+    /* For desktop */
+        body {
+        background-color: rgb(255, 255, 255);
+        }
 }
-p {
+@media screen and (max-width: 600px) {
+     /* For mobile phones: */
+    
+        body {
+        background-color: pink;
+        }
+}
+
+h1 {
     font-size: 2rem;
-    color: brown;
+    color: rgb(255, 0, 0);
 }
